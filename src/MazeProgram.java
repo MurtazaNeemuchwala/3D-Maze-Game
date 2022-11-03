@@ -345,7 +345,7 @@ public class MazeProgram extends JPanel implements KeyListener {
                 }
             }
             if (e.getKeyCode() == 40) { // back
-                for(int i = 0; i<3; i++) {
+                for (int i = 0; i < 3; i++) {
                     explorer.right();
                     explorer.right();
                 }
@@ -354,7 +354,7 @@ public class MazeProgram extends JPanel implements KeyListener {
                     moves++;
 
                 }
-                for(int i = 0; i<3; i++) {
+                for (int i = 0; i < 3; i++) {
                     explorer.right();
                     explorer.right();
                 }
